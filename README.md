@@ -1,4 +1,4 @@
-# AMC Robot
+AMC Robot
 ---
 Welcome to my page about the **Arm Manipulated Camera** Robot (AMC).
 
