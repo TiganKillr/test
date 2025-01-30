@@ -44,7 +44,7 @@ Here are the active components I will be using:
 | ESP32-C3 Super Mini | Both | Development board to control the device. |
 | MG966R Servo | 5V | Hobby servo that will drive the gearboxes. |
 | Logic Level Shifter | Both | Increases/decreases voltage for communication interfaces. |
-| AS5600 Encoder | 5V | 12-Bit encoder to measure joint travel |
+| AS5600 Encoder | 5V | Magnetic encoder to measure joint travel |
 
 
 &nbsp;
