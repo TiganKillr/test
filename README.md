@@ -12,7 +12,7 @@ In the future, the end effector will become swappable with other tools.
 
 ![alt text](https://github.com/TiganKillr/test/blob/main/placeholder.jpg?raw=true)
 
-With 5 DOF and a total length of 40cm, I will be able to use it sufficiently.
+With 5 DOF and a total length of 40cm.
 
 Design details
 ---
