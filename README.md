@@ -35,8 +35,20 @@ And the corresponding torque values.
 &nbsp;
 ## Electronics details
 
-<details>
+I will be using 5v and 3v3 power throughout the circuit.
 
+Here are the active components I will be using:
+
+| Component | Voltage | Description |  |  |  |
+| -- | -- | -- | -- | -- | -- |
+| ESP32-C3 Super Mini | Both | Development board to control the device. |  |  |  |
+| MG966R Servo | 5V | Hobby servo that will drive the gearboxes. |  |  |  |
+| Logic Level Shifter | Both | Increases/decreases voltage for communication interfaces. |  |  |  |
+| AS5600 Encoder | 5V |  |  |  |  |
+
+
+&nbsp;
+<details>
 <summary>Tips for collapsed sections</summary>
 
 You can add a header
@@ -46,5 +58,4 @@ Some test things
 ```ruby
    puts "Hello World"
 ```
-
 </details>
