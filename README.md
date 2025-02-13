@@ -6,8 +6,10 @@ It offers a built in recorder and player for camera movements, or precision cont
 
 &nbsp;
 ## Table of contents
-[Features](#features)\
-[Hardware Overview](#hardware)
+> [Features](#features)\
+[Hardware Overview](#hardware)\
+[Software Overview](#software)\
+[Mechanical Design](#mechanical)
 
 &nbsp;
 <a name="features"/>
@@ -33,11 +35,24 @@ The specifics of this project are as follows:
    - Runs on 5V or 3v3
 
 - #### <ins>AS5600</ins>
-   To capture the position of all links, I will be using AS5600 rotary magnetic encoders.
+   To capture the position of each link, I will be using AS5600 rotary magnetic encoders.
    - 12-bit resolution
    - I²C Controlled, so SDA and SCL pins.
    - Runs on 3v3
+### Actuators
+- #### <ins>MG996R Servo</ins>
+  This servo has been modified by me to act like a geared DC motor.\
+  By disconnecting the potentiometer and grinding the output gear notch, I loose out on position control.
 
+  &nbsp;
+  <a name="software"/>
+
+  ## Software Overview
+
+  &nbsp;
+  <a name="mechanical"/>
+
+  ## Mechanical Design
 
 
 
