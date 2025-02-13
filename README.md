@@ -44,15 +44,15 @@ The specifics of this project are as follows:
   This servo has been modified by me to act like a geared DC motor.\
   By disconnecting the potentiometer and grinding the output gear notch, I loose out on position control.
 
-  &nbsp;
-  <a name="software"/>
+&nbsp;
+<a name="software"/>
 
-  ## Software Overview
+## Software Overview
 
-  &nbsp;
-  <a name="mechanical"/>
+&nbsp;
+<a name="mechanical"/>
 
-  ## Mechanical Design
+## Mechanical Design
 
 
 
