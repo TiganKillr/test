@@ -23,17 +23,15 @@ The specifics of this project are as follows:
 <a name="hardware"/>
 
 ## Hardware Overview
-#### > ESP32
+#### ESP32-C3
 The development board for this robot arm will be the ESP32-C3 Super Mini.  
 It has:
 - Built-in antenna for transceiving WiFi / Bluetooth signals.
 - 160 MHz clock speed.
 - Small size and power consumption.
+- Runs on 5V or 3v3
 
-| Voltage | Clock Speed | Wifi + Bluetooth |
-| ------- | ------- | ----------- |
-| 5V or 3v3 | 160 MHz | Built-in |
-
+#### AS5600
 Alongside that, I will be using AS5600 magnetic rotary encoders.
 
 
