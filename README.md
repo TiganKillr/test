@@ -2,14 +2,14 @@
 
 Welcome to my page about the **Arm Manipulated Camera** Robot (AMC).
 
-This is my first robotics project thats deals with electromechanical systems and software.
+This is my first robotics project thats deals with electromechanical systems and programming.
 
 &nbsp;
 ## What is it?
 
 The AMC is a robot arm designed to be used in video recording / photography.
 
-In the future, the end effector will become swappable with other tools and provide other uses.
+In the future, the end effector will become swappable with other toolheads to provide other uses.
 
 ![alt text](https://github.com/TiganKillr/test/blob/main/placeholder.jpg?raw=true)
 
