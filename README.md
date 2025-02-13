@@ -66,8 +66,15 @@ The specifics of this project are as follows:
 
 ## Mechanical Design
 ### System Constraints
-- The load I aim to move is 300g over 40cm, so a torque of 12kgf/cm is needed.
-
+- Payload capacity: 300g
+- Total length: 40cm
+- Degrees of freedom: 5
+### Forces
+This table summarises the torques I will need for each joint
+| Shoulder Joint | Elbow Joint | Wrist Joint | 
+| -- | -- | -- |
+| 24.33kgf/cm | 10.5kgf/cm | 3.56kgf/cm |
+| 2.39Nm | 1.03Nm | 0.35Nm |
 
 &nbsp;
 
@@ -94,10 +101,7 @@ And the corresponding torque values.
 
 **Note:** These are estimated values.
 
-| Shoulder Joint | Elbow Joint | Wrist Joint | 
-| -- | -- | -- |
-| 24.33kgf/cm | 10.5kgf/cm | 3.56kgf/cm |
-| 2.39Nm | 1.03Nm | 0.35Nm |
+
 
 &nbsp;
 ## Electronics details
