@@ -19,7 +19,7 @@ The specifics of this project are as follows:
 - Constrained to 5 degrees of freedom and a length of 40cm.
 - Equipped with a built-in position saver for repeatable camera movements.
 - Includes a web-based interface for precise and external control.
-- Made using 3D printed parts in PLA.
+- Made using 3D printed parts from PLA.
 
 &nbsp;
 <a name="hardware"/>
@@ -27,33 +27,46 @@ The specifics of this project are as follows:
 ## Hardware Overview
 ### Electronics
 - <ins>**ESP32-C3**</ins>\
-   The development board for this robot arm will be the ESP32-C3 Super Mini.\
-   It has:
+   The development board for this robot arm will be the ESP32-C3 Super Mini.
+  
    - Built-in antenna for transceiving WiFi / Bluetooth signals.
    - 160 MHz clock speed.
    - Small size and power consumption.
-   - Runs on 5V or 3v3
+   - Voltage of 5V or 3v3
 
 - <ins>**AS5600**</ins>\
    To capture the position of each link, I will be using AS5600 rotary magnetic encoders.
+
    - 12-bit resolution
    - I²C Controlled, so SDA and SCL pins.
-   - Runs on 3v3
+   - Voltage of 3v3
+ 
+- <ins>**Logic Level Shifter**</ins>\
+   Some components in this project use a signal voltage of 5V.
+  
+   - Voltage of 5V and 3v3
 ### Actuators
 - <ins>**MG996R Servo**</ins>\
   This servo has been modified by me to act like a geared DC motor.\
-  By disconnecting the potentiometer and grinding the output gear notch, I loose out on position control.
+  By disconnecting the potentiometer and grinding the output gear notch, I miss* out on position control.
+  
+  - Stall torque of 9.4kgf/cm (4.8V)
+  - Rotational speed of ~60 RPM
+  - Running current between 500mA - 900mA (6V)
+  - Voltage between 4.8V to 7.2V
 
 &nbsp;
 <a name="software"/>
 
 ## Software Overview
 
+
 &nbsp;
 <a name="mechanical"/>
 
 ## Mechanical Design
-
+### System Constraints
+- The load I aim to move is 300g over 40cm, so a torque of 12kgf/cm is needed.
 
 
 &nbsp;
