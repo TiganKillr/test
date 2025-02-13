@@ -1,19 +1,18 @@
-## AMC Robot
+## Introduction
 
 Welcome to my page about the **Arm Manipulated Camera** Robot (AMC).
 
-This is my first robotics project thats deals with electromechanical systems and programming.
+The AMC is a 5-Axis robot arm designed to hold a smartphone for video recording.
+
+It offers a built in recorder and player for camera movements, or precision controls via Wi-Fi.
+
+## Table of contents
+[Features](#features)  
+[Hardware](#Hardware)
 
 &nbsp;
-## What is it?
 
-The AMC is a robot arm designed to be used in video recording / photography.
 
-In the future, the end effector will become swappable with other toolheads to provide other uses.
-
-![alt text](https://github.com/TiganKillr/test/blob/main/placeholder.jpg?raw=true)
-
-&nbsp;
 ## Armature details
 
 The robot arm consists of 5 DOF starting with Roll, Yaw, Yaw, Yaw and Roll.
@@ -59,3 +58,8 @@ Some test things
    puts "Hello World"
 ```
 </details>
+
+
+<a name="features"/>
+
+## Features
