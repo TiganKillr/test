@@ -1,12 +1,12 @@
 ## Introduction
 Welcome to my page about the **Arm Manipulated Camera** Robot (AMC).
 
-The AMC is a 5-Axis robot arm designed to hold a smartphone for video recording.  
+The AMC is a 5-Axis robot arm designed to hold a smartphone for video recording.\
 It offers a built in recorder and player for camera movements, or precision controls via Wi-Fi.
 
 &nbsp;
 ## Table of contents
-[Features](#features)  
+[Features](#features)\
 [Hardware Overview](#hardware)
 
 &nbsp;
@@ -23,17 +23,20 @@ The specifics of this project are as follows:
 <a name="hardware"/>
 
 ## Hardware Overview
-#### ESP32-C3
-The development board for this robot arm will be the ESP32-C3 Super Mini.  
+### Electronics
+#### <ins>ESP32-C3</ins>
+The development board for this robot arm will be the ESP32-C3 Super Mini.\
 It has:
 - Built-in antenna for transceiving WiFi / Bluetooth signals.
 - 160 MHz clock speed.
 - Small size and power consumption.
 - Runs on 5V or 3v3
 
-#### AS5600
-Alongside that, I will be using AS5600 magnetic rotary encoders.
-
+#### <ins>AS5600</ins>
+To capture the position of all links, I will be using AS5600 rotary magnetic encoders.
+- 12-bit resolution
+- I²C Controlled, so SDA and SCL pins.
+- Runs on 3v3
 
 
 
