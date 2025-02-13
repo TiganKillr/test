@@ -42,9 +42,20 @@ The specifics of this project are as follows:
 
 
 &nbsp;
+
+.
+
 &nbsp;
+
+.
+
 &nbsp;
+
+.
+
 &nbsp;
+
+Rewrite:
 
 The armature lengths are as follows:
 | Lower Link | Upper Link | Wrist Link Rear | Wrist Link Front | 
