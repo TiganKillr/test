@@ -30,7 +30,9 @@ The specifics of this project are as follows:
    The development board for this robot arm will be the ESP32-C3 Super Mini.
   
    - Built-in antenna for transceiving WiFi / Bluetooth signals.
+   - 32-Bit
    - 160 MHz clock speed.
+   - 4MB Flash
    - Small size and power consumption.
    - Voltage of 5V or 3v3
 
